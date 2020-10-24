@@ -1,0 +1,379 @@
+.Input {
+    outline: none;
+    border: 1px solid #ccc;
+    background-color: white;
+    font: inherit;
+    padding: 6px 10px;
+    display: block;
+    width: 80%;
+    box-sizing: border-box;
+    margin: 10px auto;
+    resize: none;
+    height: 50px;
+    border-radius: 4px;
+}
+
+.Input:focus {
+    outline: none;
+}
+
+.InputText {
+    outline: none;
+    font: inherit;
+    padding: 0 56px;
+    display: block;
+    font-size: 30px;
+    box-sizing: border-box;
+    margin: 10px auto;
+    font-family: 'Dancing Script', cursive;
+    color: #4B0082;
+}
+
+.button {
+    background: transparent;
+    border-width: 0;
+    position: relative;
+    cursor: pointer;
+    font-family: 'Dancing Script', cursive;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    transition: .3s;
+    text-decoration: none;
+}
+
+.button span {
+    display: block;
+    position: relative;
+    z-index: 3;
+    background: #300066;
+    color: white;
+    padding: 0 30px;
+    line-height: 40px;
+}
+
+.button:before {
+    content: "";
+    position: absolute;
+    width: calc(100% + 5px);
+    height: calc(100% + 5px);
+    left: -5px;
+    top: -5px;
+    background: #DDA0DD;
+    z-index: 1;
+    transition: .4s ease-out;
+    outline: none;
+    border: none;
+}
+
+.button:after {
+    content: "";
+    position: absolute;
+    width: calc(100% + 5px);
+    height: calc(100% + 5px);
+    right: -5px;
+    bottom: -5px;
+    background: #41ebdf;
+    transition: .4s ease-out .1s;
+    outline: none;
+    border: none;
+}
+
+.button:hover:before {
+    transform: translate(5px, 5px);
+}
+
+.button:hover:after {
+    transform: translate(-5px, -5px);
+}
+
+.button:active {
+    border: none;
+    outline: none;
+}
+
+.button:focus {
+    border: none;
+    outline: none;
+}
+
+.imageForm {
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+.Image {
+    outline: none;
+    font: inherit;
+    padding: 0;
+    display: block;
+    width: 80%;
+    box-sizing: border-box;
+    margin: 10px auto;
+}
+
+.buttonForm {
+    outline: none;
+    font: inherit;
+    padding: 0;
+    display: block;
+    width: 80%;
+    box-sizing: border-box;
+    margin: 15px auto 10px;
+}
+
+.buttonForm button{
+    margin: 10px auto;
+    display: block;
+}
+
+.AddForm {
+    border: 5px solid;
+    width: 40%;
+    margin: 0 auto 15px;
+    border-image: conic-gradient(#FF00FF, #5fc3e4,#FF00FF, #5fc3e4) 1;
+}
+
+.AddFormTitle {
+    border: 5px solid;
+    width: 40%;
+    font-size: 45px;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    color: #4B0082;
+    margin: 0 auto 15px;
+    border-image: conic-gradient(#FF00FF, #5fc3e4,#FF00FF, #5fc3e4) 1;
+}
+
+.fileInput {
+    display: none;
+}
+
+.Browse {
+    height: 49px;
+    margin-top: 11px;
+    width: 65px;
+}
+
+.Browse {
+    text-decoration: none;
+    outline: none;
+    display: inline-block;
+    margin: 10px 20px;
+    padding: 10px -13px;
+    position: relative;
+    border: 2px solid #41ebdf;
+    color: #300066;
+    font-family: 'Montserrat', sans-serif;
+    transition: .4s;
+    font-weight: bold;
+    background: white;
+}
+.Browse:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    border: 2px solid rgba(0,0,0,0);
+    transition: .4s;
+}
+.Browse:hover:after {
+    border-color: #DDA0DD;
+    width: calc(100% - 10px);
+    height: calc(100% + 10px);
+}
+
+.fileInputForm {
+    width: 360px;
+    margin-right: -11px;
+}
+
+.InputFileForm {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.Input {
+    outline: none;
+    border: 1px solid #ccc;
+    background-color: white;
+    font: inherit;
+    padding: 6px 10px;
+    display: block;
+    width: 80%;
+    box-sizing: border-box;
+    margin: 10px auto;
+    resize: none;
+    height: 50px;
+}
+
+.Input:focus {
+    outline: none;
+}
+
+.InputText {
+    outline: none;
+    font: inherit;
+    padding: 0;
+    display: block;
+    width: 80%;
+    box-sizing: border-box;
+    margin: 10px auto;
+}
+
+.button {
+    background: transparent;
+    border-width: 0;
+    position: relative;
+    cursor: pointer;
+    font-family: 'Dancing Script', cursive;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    transition: .3s;
+    text-decoration: none;
+}
+
+.button span {
+    display: block;
+    position: relative;
+    z-index: 3;
+    background: #300066;
+    color: white;
+    padding: 0 30px;
+    line-height: 40px;
+}
+
+.button:before {
+    content: "";
+    position: absolute;
+    width: calc(100% + 5px);
+    height: calc(100% + 5px);
+    left: -5px;
+    top: -5px;
+    background: #DDA0DD;
+    z-index: 1;
+    transition: .4s ease-out;
+    outline: none;
+    border: none;
+}
+
+.button:after {
+    content: "";
+    position: absolute;
+    width: calc(100% + 5px);
+    height: calc(100% + 5px);
+    right: -5px;
+    bottom: -5px;
+    background: #41ebdf;
+    transition: .4s ease-out .1s;
+    outline: none;
+    border: none;
+}
+
+.button:hover:before {
+    transform: translate(5px, 5px);
+}
+
+.button:hover:after {
+    transform: translate(-5px, -5px);
+}
+
+.button:active {
+    border: none;
+    outline: none;
+}
+
+.button:focus {
+    border: none;
+    outline: none;
+}
+
+.imageForm {
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+.Image {
+    outline: none;
+    font: inherit;
+    padding: 0;
+    display: block;
+    width: 80%;
+    box-sizing: border-box;
+    margin: 10px auto;
+}
+
+.buttonForm {
+    outline: none;
+    font: inherit;
+    padding: 0;
+    display: block;
+    width: 80%;
+    box-sizing: border-box;
+    margin: 15px auto 10px;
+}
+
+.buttonForm button{
+    margin: 10px auto;
+    display: block;
+}
+
+.TextArea {
+    height: 80px;
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+}
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(135deg, #5fc3e4 0%, #FF00FF 100%);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(135deg, #FF00FF 0%, #5fc3e4 100%);
+}
+
+.rainbow-animated {
+    background: linear-gradient(to right, red, orange, yellow, green, cyan, blue, violet);
+    background-size: 400% 400%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: rainbow 20s ease infinite;
+    animation: rainbow 20s ease infinite;
+    font-size: 25px;
+    line-height: 25px;
+}
+
+@-webkit-keyframes rainbow {
+    0% { background-position: 0% 50% }
+    50% { background-position: 100% 50% }
+    100% { background-position: 0% 50% }
+}
+
+@keyframes rainbow {
+    0% { background-position: 0% 50% }
+    50% { background-position: 100% 50% }
+    100% { background-position: 0% 50% }
+}
+
+
+
+
+
