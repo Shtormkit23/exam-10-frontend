@@ -1,0 +1,52 @@
+body{
+    background: linear-gradient(to left, rgba(255, 0, 255,0.1) 0%,rgba(135, 206, 250,0.1) 100%);
+}
+
+.Post {
+    padding: 10px 15px;
+    border: 2px solid rgba(75, 0, 130, 0.4);
+    border-radius: 5px;
+    min-height: 100px;
+    width: 80%;
+    display: flex;
+    cursor: pointer;
+    margin: 0 auto 15px auto;
+    position: relative;
+}
+
+.PostName {
+    font-family: 'Courgette', cursive;
+    padding: 5px 0 5px;
+    font-size: 30px;
+}
+
+.PostPhoto{
+    width: 200px;
+    height: 200px;
+    border-radius: 15%;
+    margin-right: 15px;
+    margin-top: 10px;
+}
+
+.PostData {
+    top: 10px;
+    right: 19px;
+    position: absolute;
+    bottom: 15px;
+    color: #cccccc;
+}
+
+.img-db {
+    display: none;
+}
+
+.buttonBlock {
+    margin-left: 50px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.buttonBlock button {
+    margin-left: 30px;
+}
